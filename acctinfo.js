@@ -2,6 +2,9 @@
  * Created by Ahoff on 12/8/2016.
  */
 
+//  Trust lines
+// Send XRP
+
 console.log("TRIPPLE");
 
 'use strict';
