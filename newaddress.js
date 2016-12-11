@@ -1,6 +1,3 @@
-/**
- * Created by Ahoff on 12/8/2016.
- */
 
 'use strict';
 const RippleAPI = require('ripple-lib').RippleAPI;
@@ -12,11 +9,12 @@ const api = new RippleAPI({
 api.connect().then(() => {
     /* begin custom code ------------------------------------ */
     const myAddress = 'rDzcGGzpqa5opMom78DAsLqDaMsjT8UNn7';
+    //rQhaePkkc89Afy3c1GF2YypfRjN3W7ALGz
 
-    console.log(myAddress);
+    //console.log(myAddress);
 
-    console.log('getting account info for', myAddress);
-    return api.getAccountInfo(myAddress);
+    console.log('Generating address...');
+    return api.generateAddress();
 
 }).then(info => {
     console.log(info);

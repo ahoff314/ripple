@@ -15,8 +15,8 @@ api.connect().then(() => {
 
     console.log(myAddress);
 
-    console.log('getting account info for', myAddress);
-    return api.getAccountInfo(myAddress);
+    console.log('Getting settings info for', myAddress);
+    return api.getSettings(myAddress);
 
 }).then(info => {
     console.log(info);

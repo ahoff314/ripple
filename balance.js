@@ -13,10 +13,10 @@ api.connect().then(() => {
     /* begin custom code ------------------------------------ */
     const myAddress = 'rDzcGGzpqa5opMom78DAsLqDaMsjT8UNn7';
 
-    console.log(myAddress);
+    //console.log(myAddress);
 
-    console.log('getting account info for', myAddress);
-    return api.getAccountInfo(myAddress);
+    console.log('Getting balances info for', myAddress);
+    return api.getBalances(myAddress);
 
 }).then(info => {
     console.log(info);
