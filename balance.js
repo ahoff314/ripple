@@ -22,6 +22,7 @@ api.connect().then(() => {
     console.log(info);
     console.log('getAccountInfo done');
 
+
     /* end custom code -------------------------------------- */
 }).then(() => {
     return api.disconnect();
