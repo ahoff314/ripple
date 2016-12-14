@@ -6,12 +6,12 @@
 const RippleAPI = require('ripple-lib').RippleAPI;
 
 const api = new RippleAPI({
-    // server: 'wss://s1.ripple.com' // Public rippled server
+    //server: 'wss://s1.ripple.com' // Public rippled server
     server: 'wss://s.altnet.rippletest.net:51233'  // Testnet Server
 });
 api.connect().then(() => {
     /* begin custom code ------------------------------------ */
-    const myAddress = 'rDzcGGzpqa5opMom78DAsLqDaMsjT8UNn7';
+    const myAddress = 'rohddbUnaPHDp42YL4vmyfpcssBTML7Xh';
 
     console.log(myAddress);
 

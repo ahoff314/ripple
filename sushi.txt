@@ -1,2 +1,9 @@
 ## TEST NET
-rQhaePkkc89Afy3c1GF2YypfRjN3W7ALGz | snmeoXTELr8Atr4TrqVW13Yi9Z727
+
+ADDRESS
+
+rohddbUnaPHDp42YL4vmyfpcssBTML7Xh
+
+SECRET
+
+snbJAJsDqMEEmtBTadLHCjeQ9Rjr1
